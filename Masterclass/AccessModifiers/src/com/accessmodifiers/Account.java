@@ -41,6 +41,11 @@ public class Account {
 			System.out.println();
 		}
 	}
+	
+	public void m1()
+	{
+		//Added void method
+	}
 		
 	
 	
