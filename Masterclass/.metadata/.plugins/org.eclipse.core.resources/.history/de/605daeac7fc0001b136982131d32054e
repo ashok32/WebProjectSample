@@ -1,0 +1,22 @@
+package com.practice.list;
+
+import java.util.ArrayList;
+
+public class Main {
+	
+	
+	
+	public static void main(String[]args)
+	{
+	//ArrayList<String> string;
+	
+	ArrayList<String> string=new ArrayList<>();
+	
+	string.add("apple");
+	string.add("banana");
+	string.add("orange");
+	
+	System.out.println(string);
+	
+	}
+}

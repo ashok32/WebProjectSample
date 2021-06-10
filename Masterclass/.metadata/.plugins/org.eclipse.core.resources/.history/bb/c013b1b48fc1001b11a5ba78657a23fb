@@ -1,0 +1,34 @@
+package com.practice.map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+//		Map<Integer, String> hm=new HashMap<Integer, String>();
+//		
+//		hm.put(1, "A");
+//		hm.put(2, "B");
+//		hm.put(3, "C");
+//		hm.put(4, "D");
+//		hm.put(5, "E");
+//		
+//		//System.out.println(hm);
+		
+		Map<String,String> hm=new HashMap<String,String>();
+		
+		hm.put("Red"," Apple" );
+		hm.put("yellow", "lemon");
+		hm.put("blue", "berries");
+		hm.put("green", "olives");
+		
+		System.out.println(hm);
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.practice.list;
+
+import java.util.ArrayList;
+
+public class Main {
+	
+	
+	
+	public static void main(String[]args)
+	{
+	//ArrayList<String> string;
+	
+	ArrayList<String> string=new ArrayList<>();
+	
+	string.add("apple");
+	string.add("banana");
+	string.add("orange");
+	
+	//string.set(2, "mango");
+	System.out.println("the sixe of the array list = " + string.size());
+	
+	}
+}

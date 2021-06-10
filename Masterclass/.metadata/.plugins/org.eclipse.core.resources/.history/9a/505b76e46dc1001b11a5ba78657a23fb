@@ -1,0 +1,11 @@
+package com.practice.map;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//map<Integer, String> name=new map<>();
+		
+	}
+
+}

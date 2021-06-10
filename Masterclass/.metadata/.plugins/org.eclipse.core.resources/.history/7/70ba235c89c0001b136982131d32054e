@@ -1,0 +1,28 @@
+package com.practice.list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MyList {
+
+	
+	public static void main(String[] args) {
+		
+
+		List<Integer> l1=new ArrayList<>();
+		
+		l1.add(0);
+		l1.add(1);
+		l1.add(2);
+		System.out.println("Adding integers items in the list = " + l1);
+		
+		List<String> ls=new ArrayList<>();
+		
+		ls.add("Apple");
+		ls.add("Banana");
+		ls.add("Orange");
+		System.out.println("Adding String items in the list =" + ls);
+		
+	}
+
+}

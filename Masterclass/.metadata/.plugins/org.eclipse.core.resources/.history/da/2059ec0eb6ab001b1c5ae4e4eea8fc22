@@ -1,0 +1,29 @@
+package com.array.example;
+
+import java.util.Scanner;
+
+public class Array {
+	
+	public static Scanner scanner=new Scanner(System.in);
+	
+	public static int[] getInterger(int number)
+	{
+		int[] values=new int[number];
+		
+		for(int i=0; i<values.length; i++)
+		{
+			System.out.println("Enter " + number + " integer values. \r");
+		}
+		
+		return values;
+	}
+	
+	public static void main(String[]args)
+	{
+		
+		Array myIntArray=new Array();
+		Array.getInterger(5);
+	}
+	
+
+}

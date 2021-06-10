@@ -1,0 +1,45 @@
+package com.practice.list;
+
+import java.util.ArrayList;
+
+public class MyList {
+
+	
+	//ArrayList<Integers> integers;
+	
+	ArrayList<Integer> integers =new ArrayList<>();
+	
+	ArrayList<String> string=new ArrayList<>();
+	
+	ArrayList<Double> doubl=new ArrayList<>();
+	
+	public static void main (String[]args)
+	{
+
+		ArrayList<Integer> integers =new ArrayList<>();
+		
+		ArrayList<String> string=new ArrayList<>();
+		
+		string.add("Apple");
+		string.add("banana");
+		string.add("orange");
+		
+		System.out.println(string);
+		
+		ArrayList<Double> doubl=new ArrayList<>();
+		
+		integers.add(1);
+		integers.add(2);
+		integers.add(3);
+		integers.add(4);
+		integers.add(5);
+		
+		System.out.println(integers);
+		
+		ArrayList<Long> ln=new ArrayList<>();
+		
+	}
+	
+	
+	
+}
