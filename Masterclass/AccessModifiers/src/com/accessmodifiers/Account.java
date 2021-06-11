@@ -14,6 +14,8 @@ public class Account {
 		this.transactions=new ArrayList<Integer>();
 	}
 	
+	// added line for testing
+	
 	public int getBalance()
 	{
 		return balance;
