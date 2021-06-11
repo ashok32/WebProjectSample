@@ -6,6 +6,7 @@ public class Bird {
 	
 	Bird()
 	{
+		// Birds
 		bird1="parrot";
 		bird2="swift";
 		bird3="butterfly";
