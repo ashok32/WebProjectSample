@@ -2,7 +2,7 @@ package com.array;
 
 public class Array {
 
-	
+	// This ia Array Class
 	
 	public static void printArray(int[] array )
 	{
