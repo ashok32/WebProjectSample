@@ -9,7 +9,7 @@ public class Test {
 		int score=10000;
 		int levelCompleted=8;
 		int bonus=200;
-		
+		// Assigning CalculateScore method to highscore
 		int highScore = calculateScore(gameOver,score,levelCompleted,bonus);
 		System.out.println(" My final high score was = " + highScore);
 		
