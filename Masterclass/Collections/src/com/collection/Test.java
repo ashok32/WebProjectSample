@@ -6,7 +6,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		
+		// Created ArrayList to add Strng Objects
 		ArrayList arrayList=new ArrayList();
 		
 		System.out.println(" The size of the array = " + arrayList.size());
